@@ -22,6 +22,7 @@ status:{
 
 });
 
+//Export the Schema
 const todoModel = model("todo", todoSchema);
 export default todoModel;
 
