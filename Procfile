@@ -1,1 +1,1 @@
-"start": "index.js"
+web: index.js
