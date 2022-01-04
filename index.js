@@ -44,6 +44,10 @@ mongoose.connect( db,{
        console.log(err);
 
    });
+
+   app.get('/', (req,res)=>{
+       res.send('hello')
+   })
    
    app.get("/todos", async (req, res) => {
        const todoModel = await TodoModel.find({});
